@@ -381,6 +381,16 @@ footer{
     }
 }
 
+@media(max-width:450px){
+    .contacto input,.contacto textarea{
+        font-size: 20px;
+    }
+
+    .contacto .inputs > div input:nth-child(1){
+        margin-bottom: 20px;
+    }
+}
+
 @media (max-width:785px) {
     .lista-nav{
         display: none;
